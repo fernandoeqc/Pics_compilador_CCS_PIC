@@ -5,11 +5,11 @@
 *.ali
 
 #OUTPUTS
-.cof
-.err
-.esym
-.lst
-.STA
-.sym
-.tre
-.xsym
+*.cof
+*.err
+*.esym
+*.lst
+*.STA
+*.sym
+*.tre
+*.xsym
