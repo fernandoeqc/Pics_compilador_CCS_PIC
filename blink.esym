@@ -1,7 +1,7 @@
-D G "__PCM__" 0 17 ""5.015""
-D G "__DEVICE__" 0 17 "1822"
-D G "__DATE__" 0 17 ""23-mai-20""
-D G "__TIME__" 0 17 ""20:40:35"" "Standard Header file for the PIC12F1822 device ////////////////"
+D G "__PCM__" 0 0 ""5.015""
+D G "__DEVICE__" 0 0 ""
+D G "__DATE__" 0 0 ""23-mai-20""
+D G "__TIME__" 0 0 ""20:53:28"" "Standard Header file for the PIC12F1822 device ////////////////"
 c L "set_tris_a" 2 3 6 "FUNCTION"
 v L "value" 2 39 "int8" `54 
 f B "set_tris_a" 2 39 "void(int8 value)" `53 
