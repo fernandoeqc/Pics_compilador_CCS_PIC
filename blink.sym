@@ -1,0 +1,59 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PACKED_MEMORY.P2
+004-005 @WRITE_PROGRAM_MEMORY8.P3
+004-005 @READ_PACKED_MEMORY.P4
+006-007 @READ_PACKED_MEMORY.P1
+006-007 @WRITE_PACKED_MEMORY.P2
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+025     main.@SCRATCH1
+026     @delay_ms1.P1
+111.6   C1OUT
+191-192 @WRITE_PROGRAM_MEMORY8.P1
+191-192 @READ_PROGRAM_MEMORY8.P2
+291     CCP_1
+291     CCP_1_LOW
+292     CCP_1_HIGH
+
+ROM Allocation:
+000003  @delay_ms1
+000019  @cinit1
+000019  main
+000021  @cinit2
+
+Project Directory:
+    C:\Users\ferna\OneDrive\Documentos\ProjetosGit\Pics\
+
+Project Files:
+    blink.c                                                 [23-mai-20 20:27  CRC=D872A938]
+    blink.h                                                 [23-mai-20 20:27  CRC=B723CC71]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Devices\12F1822.h [12-nov-13 14:34  CRC=2BE8346A]
+
+Source signature=E766DE7D
+
+Units:
+    blink (main)
+
+Compiler Settings:
+    Processor:      PIC12F1822
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Enhanced 16:    Yes
+
+Output Files:
+    XREF file:   blink.xsym
+    Errors:      blink.err
+    Ext Symbols: blink.esym
+    INHX8:       blink.hex
+    Symbols:     blink.sym
+    List:        blink.lst
+    Debug/COFF:  blink.cof
+    Project:     blink.ccspjt
+    Call Tree:   blink.tre
+    Statistics:  blink.STA
