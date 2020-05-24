@@ -19,7 +19,6 @@ void main()
       delay_ms(DELAY);
       output_high(LED);
       delay_ms(DELAY);
-      funcao_qq_coisa();
    }
 
 }
