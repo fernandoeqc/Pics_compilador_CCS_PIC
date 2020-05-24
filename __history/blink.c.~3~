@@ -1,6 +1,10 @@
 #include <blink.h>
 
-void rod()
+
+
+
+
+void funcao_qq_coDDSDiDDSsa()
 {
 
 }
@@ -15,7 +19,7 @@ void main()
       delay_ms(DELAY);
       output_high(LED);
       delay_ms(DELAY);
-      rod();
+      funcao_qq_coisa();
    }
 
 }

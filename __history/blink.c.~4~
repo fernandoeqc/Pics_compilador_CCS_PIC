@@ -1,6 +1,6 @@
 #include <blink.h>
 
-void rod()
+void ROD()
 {
 
 }
@@ -15,7 +15,7 @@ void main()
       delay_ms(DELAY);
       output_high(LED);
       delay_ms(DELAY);
-      rod();
+      void ROD();
    }
 
 }
